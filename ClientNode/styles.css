@@ -1,0 +1,35 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  padding: 0.6rem;
+  margin: 0.2rem 0;
+  border-radius: 0.4rem;
+  border: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+  background: white;
+}
+
+pre {
+  background: #111;
+  color: #eee;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  white-space: pre-wrap;
+  margin-top: 1rem;
+  height: 200px;
+  overflow-y: auto;
+}
